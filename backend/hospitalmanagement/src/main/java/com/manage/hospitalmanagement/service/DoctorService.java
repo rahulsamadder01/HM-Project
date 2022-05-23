@@ -24,6 +24,7 @@ public class DoctorService {
         System.out.println(docrepo.findByName(name));
         Doctor docinf = docrepo.findByName(name);
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>" + docinf);
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         return docinf;
     }
     //get all doctor
